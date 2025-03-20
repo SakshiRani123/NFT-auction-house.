@@ -22,4 +22,7 @@ The project aims to revolutionize NFT trading by introducing a trustless, automa
 - **Automated Settlement:** NFTs are automatically transferred to the highest bidder, and funds are sent to the seller.
 - **Bid Withdrawal Mechanism:** Losing bidders can withdraw their funds after an auction ends.
 - **Decentralized & Transparent:** All transactions are on-chain and verifiable.
+## Contract Address
+0xE778156FC25D73e0dBD6bAdb8B7d9d9515bb5D8D
+![image](https://github.com/user-attachments/assets/a564facb-7fd1-4344-be6b-be1aa87160e1)
 
