@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Auction House</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>NFT Auction House</h1>
+        
+        <div class="auction-form">
+            <h2>Create Auction</h2>
+            <input type="text" id="nftAddress" placeholder="NFT Contract Address">
+            <input type="number" id="tokenId" placeholder="Token ID">
+            <input type="number" id="duration" placeholder="Duration (seconds)">
+            <button onclick="createAuction()">Create Auction</button>
+        </div>
+        
+        <div class="bid-form">
+            <h2>Place a Bid</h2>
+            <input type="text" id="bidNftAddress" placeholder="NFT Contract Address">
+            <input type="number" id="bidTokenId" placeholder="Token ID">
+            <input type="number" id="bidAmount" placeholder="Bid Amount (ETH)">
+            <button onclick="placeBid()">Place Bid</button>
+        </div>
+        
+        <div class="withdraw-section">
+            <h2>Withdraw Funds</h2>
+            <button onclick="withdrawFunds()">Withdraw</button>
+        </div>
+        
+        <div class="auction-end">
+            <h2>End Auction</h2>
+            <input type="text" id="endNftAddress" placeholder="NFT Contract Address">
+            <input type="number" id="endTokenId" placeholder="Token ID">
+            <button onclick="endAuction()">End Auction</button>
+        </div>
+    </div>
+</body>
+</html>
